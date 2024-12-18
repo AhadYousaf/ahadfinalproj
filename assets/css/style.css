@@ -1,0 +1,77 @@
+/* General Styles */
+body {
+    background-color: #f3e5f5; /* Light purple background */
+    color: #4a148c; /* Deep purple text */
+}
+
+
+
+/* Card Styles */
+.card {
+    border: none;
+    border-radius: 10px;
+    background-color: #ffffff; /* White card background */
+}
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+.card-title {
+    color: #6a1b9a; /* Deep purple */
+}
+.card-text {
+    color: #4a148c; /* Secondary deep purple */
+}
+
+/* Buttons */
+.btn-outline-primary {
+    border-color: #6a1b9a; /* Purple border */
+    color: #6a1b9a; /* Purple text */
+}
+.btn-outline-primary:hover {
+    background-color: #6a1b9a; /* Purple background on hover */
+    color: white;
+}
+
+/* Header Section */
+header {
+    background: linear-gradient(45deg, #6a1b9a, #ff8a65); /* Purple to orange gradient */
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+header p {
+    font-size: 1.2rem;
+}
+
+/* Footer */
+footer {
+    background-color: #6a1b9a; /* Deep purple footer */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+footer a {
+    color: #ff8a65; /* Orange link */
+    text-decoration: none;
+}
+footer a:hover {
+    color: white;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+    header p {
+        font-size: 1rem;
+    }
+    .card-img-top {
+        height: 150px;
+    }
+}
